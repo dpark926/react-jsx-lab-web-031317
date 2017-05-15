@@ -1,0 +1,23 @@
+// class Webpage extends React.Component {
+//   render() {
+//     return React.createElement('h1', {})
+//   }
+// }
+
+import React from 'react';
+import FillerText from './FillerText.js';
+
+
+class Webpage extends React.Component {
+  render() {
+    return (
+      <div>
+      <h1>The world's coolest webpage</h1>
+        <FillerText />
+        <FillerText />
+      </div>
+    )
+  }
+}
+
+export default Webpage;
